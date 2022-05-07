@@ -19,7 +19,7 @@ public class TAD implements Ivetor{
         }
         return false;
     }
-    private boolean cheio(){
+    public boolean cheio(){
         
         if(acumulador == this.aluno.length)
             return true;
@@ -34,15 +34,15 @@ public class TAD implements Ivetor{
             }
         }
         if(aux != -1){
-            for(int i = aux; i< (this.aluno.length - 1); i++){
-                this.aluno[i] = this.aluno[i-1];
+            for(int i = aux; i< (this.acumulador - 1); i++){
+                this.aluno[i] = this.aluno[i+1];
             }
             this.acumulador --;
             return true;
         }
         return false;
     }
-    private void garanteEspaco(){
+    public void garanteEspaco(){
         if(this.cheio()){
             Aluno []newArray = new Aluno[this.aluno.length * 2];
             for(int i = 0; i<this.aluno.length; i++){
