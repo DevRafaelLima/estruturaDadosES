@@ -1,0 +1,18 @@
+Anotações importante sobre listas: 
+     - A primeira coisa é que as listas não são uma estrutura de dados indexada como o array.
+     isso quer dizer que não podemos acessar o conteúdo de um nó, célula ou nodos da lista. 
+     - Por não ser uma lista indexada, isso significa que os dados, normalmente não ficam em 
+     uma sequencia, como acontece com a estrutura de dados vetor. 
+     - As listas crescem ou decrecem de acordo com a inserção ou remoção de elementos. 
+
+    ** Como as listas é uma estrutura indexa, como fazemos para acessar os nodos?
+    Resposta: Acessamos pelo endereço de mémoria. Uma lista tem que ter no mínimo duas parte: 1º a informação e 2º 
+    pra onde ele tá apontando. 
+        Isso signifca que ao ler uma lista deve-se ler a informação, caso essa informação não seja a buscada, deve-se 
+        ler o endereço pra onde esse nodo tá apontando. Com esse endereçõ conseguimos ir para o próximo nodo e repetimos 
+        o processo de ler a informação e verificar se é o que buscamos. O  último nodo da lista sempre aponta para null. 
+
+    ** Agora algumas vantagens e desvantagens de utilizar lista
+        - VANTAGENS: Não existe disperdício de memória; Sem limite de tamanho (desde que haja espalo na RAM); Facilidade de inserir e remover elementos;
+        - DESVANTAGENS: Não permite acesso direto ao elemento;Tempo de acesso a cada elemento não é constante; implementação mais complexa;
+        
