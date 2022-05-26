@@ -1,6 +1,4 @@
-package listaII;
-
-import listaII.atividada1.LDE;
+package listaII.atividada1;
 
 class main{
     public static void main(String[] args){
@@ -18,6 +16,6 @@ class main{
         l.impressaoInicio();
         System.out.println("Impressão fim");
         l.impressaoFim();
-        System.out.println("Remover 125: " + l.remove(125));
+        System.out.println("Remover 1256.1 - Implemente um TAD LDE que armazena inteiros. Em seguida, refatore o método remove() de modo que a busca ocorra em outro método e seu retorno seja utilizado no método remove();  Implemente o método de impressão de modo que seja possível escrever os inteiros em ambos os sentidos.: " + l.remove(125));
     }
 }
