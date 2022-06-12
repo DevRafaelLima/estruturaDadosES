@@ -1,6 +1,6 @@
 package arranjo;
 
-public class TAD implements Ivetor{
+public class TAD{
     private Object[] aluno = new Object[5];
     private int acumulador = 0;
     public void add(Object aluno){
@@ -51,5 +51,5 @@ public class TAD implements Ivetor{
             this.aluno = newArray;
         }
     }
-
+   
 }
